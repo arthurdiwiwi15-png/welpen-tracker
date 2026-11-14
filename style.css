@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 15px; background: #f4f4f9; color: #333; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+#app-container { display: grid; gap: 15px; }
+.dog-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.dog-card h2 { margin-top: 0; font-size: 1.2em; }
+.dog-info { font-size: 0.9em; color: #666; margin-bottom: 10px; background: #eee; padding: 5px; border-radius: 4px;}
+.weight-entry { display: flex; gap: 10px; margin-bottom: 10px; }
+input, button { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; }
+button { background: #4CAF50; color: white; border: none; cursor: pointer; font-weight: bold; }
+button:hover { background: #45a049; }
+.stats { font-weight: bold; color: #2E7D32; margin-bottom: 10px; }
+.history { font-size: 0.9em; max-height: 150px; overflow-y: auto; border-top: 1px solid #ddd; padding-top: 10px;}
